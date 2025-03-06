@@ -1818,7 +1818,7 @@ return [
                 'title' => 'About Lead',
             ],
 
-            'quotes'=> [
+            'quotes' => [
                 'subject'         => 'Subject',
                 'expired-at'      => 'Expired At',
                 'sub-total'       => 'Sub Total',
@@ -2003,6 +2003,7 @@ return [
         'app-version'          => 'Version: :version',
         'dashboard'            => 'Dashboard',
         'leads'                => 'Leads',
+        'consultants'          => 'Consultants',
         'quotes'               => 'Quotes',
         'quote'                => 'Quote',
         'mail'                 => [
@@ -2149,4 +2150,44 @@ return [
         'xls'        => 'XLS',
         'xlsx'       => 'XLSX',
     ],
+    'consultants' => [
+        'index' => [
+            'title'          => 'Consultants',
+            'create-btn'     => 'Create Consultant',
+            'create-success' => 'Consultant created successfully.',
+            'update-success' => 'Consultant updated successfully.',
+            'delete-success' => 'Consultant deleted successfully.',
+            'delete-failed'  => 'Consultant can not be deleted.',
+
+            'datagrid' => [
+                'id'              => 'ID',
+                'first_name'            => 'First Name',
+                'last_name'            => 'Last Name',
+                'email'            => 'Email',
+                'phone'            => 'Phone',
+                'title'            => 'Title',
+                'tjm'            => 'Daily rate',
+                'cjm'            => 'Daily cost',
+                'delete'          => 'Delete',
+                'edit'            => 'Edit',
+                'view'            => 'View',
+                'created-at'      => 'Created At',
+                'products'        => 'Products',
+                'contact-emails'  => 'Contact Emails',
+                'contact-numbers' => 'Contact Numbers',
+            ],
+        ],
+        'create' => [
+            'title'         => 'Create Consultant',
+            'save-btn'      => 'Save Consultant',
+            'contact-info'  => 'Contact Information',
+            'tjm'  => 'Daily rate',
+            'cjm'  => 'Daily cost',
+            'title'  => 'Title',
+            'first_name'  => 'First Name',
+            'last_name'  => 'Last Name',
+            'email'  => 'Email',
+            'phone'  => 'Phone',
+        ],
+    ]
 ];

@@ -26,7 +26,7 @@
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.6",
         "fakerphp/faker": "^1.9.1",
-        "krayin/krayin-package-generator": "dev-master",
+        "krayin/krayin-package-generator": "^2.0",
         "laravel/pint": "^1.16",
         "laravel/sail": "^1.0.1",
         "mockery/mockery": "^1.4.2",
@@ -59,6 +59,7 @@
             "Webkul\\Attribute\\": "packages/Webkul/Attribute/src",
             "Webkul\\Contact\\": "packages/Webkul/Contact/src",
             "Webkul\\Core\\": "packages/Webkul/Core/src",
+            "Webkul\\Consultant\\": "packages/Webkul/Consultant/src",
             "Webkul\\Email\\": "packages/Webkul/Email/src",
             "Webkul\\EmailTemplate\\": "packages/Webkul/EmailTemplate/src",
             "Webkul\\Installer\\": "packages/Webkul/Installer/src",
