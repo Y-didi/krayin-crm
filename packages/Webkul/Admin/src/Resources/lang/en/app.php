@@ -2189,5 +2189,18 @@ return [
             'email'  => 'Email',
             'phone'  => 'Phone',
         ],
+        'edit' => [
+            'title'         => 'Edit Consultant',
+            'save-btn'      => 'Save Consultant',
+            'contact-info'  => 'Contact Information',
+            'tjm'  => 'Daily rate',
+            'cjm'  => 'Daily cost',
+            'consultant_title'  => 'Title',
+            'first_name'  => 'First Name',
+            'last_name'  => 'Last Name',
+            'email'  => 'Email',
+            'phone'  => 'Phone',
+            'general' => 'General',
+        ],
     ]
 ];
